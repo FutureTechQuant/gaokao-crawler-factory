@@ -85,7 +85,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: FutureTechQuant/gaokao-crawler
-          ref: restore
+          ref: main
           path: source-repo
           token: ${{ steps.app-token.outputs.token }}
           persist-credentials: false
