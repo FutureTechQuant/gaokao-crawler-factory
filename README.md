@@ -11,3 +11,14 @@ This repository is a crawler factory/management project. It does not define a si
 | 掌上高考根域名 | `https://www.gaokao.cn` |
 | 静态数据域名 | `https://static-data.gaokao.cn` |
 <!-- target-crawl-links:end -->
+
+<!-- crawl-sources:start -->
+## 爬取链接 / 数据源
+
+> 维护说明：本仓库是爬虫仓库生成工厂，源码中没有直接执行的数据爬取逻辑；爬取结果文件（data/results/output/json/csv/xlsx 等）不纳入统计。
+
+### 生成目标涉及的源站
+
+- `https://static-data.gaokao.cn`
+- `https://www.gaokao.cn`
+<!-- crawl-sources:end -->
